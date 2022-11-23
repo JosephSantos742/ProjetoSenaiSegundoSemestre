@@ -1,0 +1,29 @@
+﻿.banner img {
+    width: 100%;
+}
+
+.descricao_empresa {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.alinhar_icones {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.descricao_empresa img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media(min-width: 990px) {
+    .descricao_empresa {
+        font-size: 20px;
+    }
+}
