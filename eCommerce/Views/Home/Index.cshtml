@@ -2,21 +2,104 @@
     ViewData["Title"] = "Home Page";
 }
 
+@* Banner inicial da pagina *@
 <div class="banner">
-    <img src="img/img1.jpg" alt="banner"/>
+    <img src="img/img1.jpg" alt="banner" />
 </div>
 
-<div class="descricao_empresa"> 
+@* Caracteristicas da empresa *@
+<div class="descricao_empresa">
     <div class="alinhar_icones">
         <img src="img/icon_pix.png" />
-        <p>Pague no Pix e ganha 5% desconto.</p>
+        <p>Pague no Pix e ganha 5% de desconto.</p>
     </div>
     <div class="alinhar_icones">
         <img src="img/transportation_icon.png" />
-        <p>Frete grátis clientes conveniados.</p>
+        <p>Frete grátis para clientes conveniados.</p>
     </div>
     <div class="alinhar_icones">
         <img src="img/parceria_icon.png" />
         <p>Parceria com instituições.</p>
     </div>
 </div>
+
+@* Banner com as áreas que a empresa vende seus produtos*@
+<div class="categoriasProdutos">
+    <img src="~/img/categoria1.jpg" alt="" />
+    <img src="~/img/categoria2.jpg" alt="" />
+    <img src="~/img/categoria3.jpg" alt="" />
+    <img src="~/img/categoria4.jpg" alt="" />
+</div>
+
+@* Início da categoria - BOTA *@
+
+<div class="produto_botas">
+    <img src="~/img/bannerTipoProduto.jpg" alt="" />
+</div>
+
+<div class="produtos">
+    <div class="card_produto">
+        <div class="imagemProduto">
+            <img src="~/img/bota1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Bota couro</p>
+        </div>
+        <div class="avaliacao">
+            <img src="~/img/star.png" alt="">
+            <img src="~/img/star.png" alt="">
+            <img src="~/img/star.png" alt="">
+        </div>
+        <div class="preco">
+            <p>R$ 39,99</p>
+        </div>
+    </div>
+    <div class="card_produto">
+        <div class="imagemProduto">
+            <img src="~/img/bota1.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Botina 3M</p>
+        </div>
+        <div class="avaliacao">
+            <img src="~/img/star.png" alt="">
+            <img src="~/img/star.png" alt="">
+            <img src="~/img/star.png" alt="">
+            <img src="~/img/star.png" alt="">
+        </div>
+        <div class="preco">
+            <p>R$ 39,99</p>
+        </div>
+    </div>
+    <div class="card_produto">
+        <div class="imagemProduto">
+            <img src="~/img/bota3.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Bota branca</p>
+        </div>
+        <div class="avaliacao">
+            <img src="~/img/star.png" alt="">
+        </div>
+        <div class="preco">
+            <p>R$ 39,99</p>
+        </div>
+    </div>
+    <div class="card_produto">
+        <div class="imagemProduto">
+            <img src="~/img/bota4.jpg" alt="">
+        </div>
+        <div class="nome">
+            <p>Bota preta</p>
+        </div>
+        <div class="avaliacao">
+            <img src="~/img/star.png" alt="">
+            <img src="~/img/star.png" alt="">
+        </div>
+        <div class="preco">
+            <p>R$ 39,99</p>
+        </div>
+    </div>
+</div>
+
+@* Fim da categoria - BOTA *@

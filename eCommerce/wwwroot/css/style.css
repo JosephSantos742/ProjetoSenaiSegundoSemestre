@@ -1,4 +1,8 @@
-﻿.banner img {
+﻿@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@700&family=Montserrat:wght@300&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.banner img {
     width: 100%;
 }
 
@@ -20,6 +24,55 @@
     width: 30px;
     height: 30px;
     margin-right: 10px;
+}
+
+.categoriasProdutos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.produto_botas {
+    margin-top: 4%;
+}
+
+.produto_botas img {
+    width: 100%;
+}
+
+.produtos {
+    display: flex;
+    margin-top: 2%;
+}
+
+.card_produto {
+    padding: 2%;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 1%;
+}
+
+.card_produto p {
+    margin: 4%;
+}
+
+.imagemProduto img {
+    width: 100%
+}
+.nome p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.avaliacao {
+    margin: 4%;
+}
+
+.preco p {
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
 }
 
 @media(min-width: 990px) {
