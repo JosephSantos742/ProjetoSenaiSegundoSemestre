@@ -76,3 +76,4 @@ C:\Users\aluno\Documents\JosephSantos\projetoSegundoSemestre\ProjetoSegundoSemes
 C:\Users\aluno\Documents\JosephSantos\projetoSegundoSemestre\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.pdb
 C:\Users\aluno\Documents\JosephSantos\projetoSegundoSemestre\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.genruntimeconfig.cache
 C:\Users\aluno\Documents\JosephSantos\projetoSegundoSemestre\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csproj.CopyComplete
+C:\Users\josep\Documents\Visual Studio 2022\Projetos\eCommerce\eCommerce\eCommerce\bin\Debug\netcoreapp3.1\eCommerce.StaticWebAssets.xml
