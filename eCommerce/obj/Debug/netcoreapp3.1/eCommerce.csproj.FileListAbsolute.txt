@@ -87,8 +87,6 @@ C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\bin\Debug
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\bin\Debug\netcoreapp3.1\eCommerce.pdb
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\bin\Debug\netcoreapp3.1\eCommerce.Views.dll
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\bin\Debug\netcoreapp3.1\eCommerce.Views.pdb
-C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csproj.AssemblyReference.cache
-C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.AssemblyInfoInputs.cache
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.AssemblyInfo.cs
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csproj.CoreCompileInputs.cache
@@ -115,3 +113,4 @@ C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.pdb
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.genruntimeconfig.cache
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csproj.CopyComplete
+C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csprojAssemblyReference.cache
