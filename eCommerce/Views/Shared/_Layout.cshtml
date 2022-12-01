@@ -17,9 +17,9 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>*@
-                <img src="~/img/logomarcaTotalEpi.png" />
+                <img src="~/img/logomarcaTotalEpi.png" style="width:35%;"/>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav flex-grow-0">
                         @*<li class="nav-item">
                             <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
@@ -29,6 +29,30 @@
                         <li>
                             <a class="nav-link text-warning" href="#produto_bota_landing" style="font-size: 20px;">Botas</a>
                         </li>
+                        <li>
+                            <a class="nav-link text-warning" href="#produto_luva_landing" style=" font-size: 20px;">Luvas</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-warning" href="#produto_capacete_landing" style=" font-size: 20px;">Capacetes</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-warning" href="#produto_fone_landing" style=" font-size: 20px;">Fones</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-warning" href="#produto_mascara_landing" style=" font-size: 20px;">Máscaras</a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-warning" href="#produto_senai_landing" style=" font-size: 20px;">Exclusivos Senai</a>
+                        </li>
+                            <ul class="usuario_login">
+                                <li>
+                                    <a id="open-modal">Logar</a>
+                                </li>
+                                <li>
+                                    <a>Cadastrar</a>
+                                </li>
+                            </ul>
+                        <img src="~/img/user.png" style="padding-right: .5rem; padding-left: .5rem;" />
                     </ul>
                 </div>
             </div>
@@ -40,12 +64,22 @@
         </main>
     </div>
 
-    <footer class="meu_footer">  
+    <footer class="meu_footer">
         <div class="container">
-            <img src="~/img/logoMarcaDfmTech.png" />
-            EquipaMais EPI - 2022 / DFM Tech
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <img src="~/img/logoMarcaDfmTech.png" />
+                </div>
+                <div>
+                    EquipaMais EPI - 2022 / DFM Tech
+                </div>
+                <div>
+                    Sobre nós
+                </div>
+            </div>     
         </div>
     </footer>
+ 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

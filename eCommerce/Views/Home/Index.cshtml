@@ -2,6 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
+@* Modal para login *@
+
+<div id="fade" class="hide"></div>
+<div id="modal" class="hide">
+    <div class="modal-header">
+        <h2>Entre com suas credenciais</h2>
+        <button id="close-modal">Fechar</button>
+    </div>
+    <div class="modal-body">
+        <label for="name">E-mail</label>
+        <input type="email" placeholder="Digite seu e-mail"> <br>
+        <label for="name">Senha</label>
+        <input type="text" placeholder="Insira sua senha"> <br>
+    </div>
+</div>
+
 @* Banner inicial da pagina *@
 <div class="banner">
     <img src="~/img/banner/banner_empresa.png" alt="banner" />
@@ -32,7 +48,7 @@
 </div>
 
 @* Início da categoria - BOTA *@
-
+<a name="produto_bota_landing"></a>
 <div class="banner_produto">
     <img src="~/img/banner/banner_botas.png" alt="" />
 </div>
@@ -105,6 +121,7 @@
 @* Fim da categoria - BOTA *@
 
 @* Início da categoria - LUVA *@
+<a name="produto_luva_landing"></a>
 <div class="banner_produto">
     <img src="~/img/banner/banner_luvas.png" alt="" />
 </div>
@@ -177,7 +194,7 @@
 @* Fim da categoria - LUVA *@
 
 @* Início da categoria - CAPACETE *@
-
+<a name="produto_capacete_landing"></a>
 <div class="banner_produto">
     <img src="~/img/banner/banner_capacetes.png" alt="" />
 </div>
@@ -250,7 +267,7 @@
 @* Fim da categoria - CAPACETE *@
 
 @* Início da categoria - PROTETOR AURICULAR *@
-
+<a name="produto_fone_landing"></a>
 <div class="banner_produto">
     <img src="~/img/banner/banner_fones.png" alt="" />
 </div>
@@ -323,7 +340,7 @@
 @* Fim da categoria - PROTETOR AURICULAR *@
 
 @* Início da categoria - MÁSCARA *@
-
+<a name="produto_fone_landing"></a>
 <div class="banner_produto">
     <img src="~/img/banner/banner_mascaras.png" alt="" />
 </div>
@@ -396,6 +413,7 @@
 @* Fim da categoria - MÁSCARA *@
 
 @* Banner e card para produtos exclusivos Senai *@
+<a name="produto_senai_landing"></a>
 <div class="banner">
     <img src="img/banner/banner_senai.png" alt="banner" />
 </div>
