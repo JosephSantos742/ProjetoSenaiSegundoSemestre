@@ -17,7 +17,7 @@
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>*@
-                <img src="~/img/logomarcaTotalEpi.png" style="width:35%;"/>
+                <img src="~/img/logomarcaTotalEpi.png" style="width:30%;"/>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-0">
                         @*<li class="nav-item">
@@ -52,7 +52,7 @@
                                     <a>Cadastrar</a>
                                 </li>
                             </ul>
-                        <img src="~/img/user.png" style="padding-right: .5rem; padding-left: .5rem;" />
+                        <img src="~/img/user.png" style="padding-right: .5rem; padding-left: .5rem; width: 8%;" />
                     </ul>
                 </div>
             </div>
@@ -66,15 +66,32 @@
 
     <footer class="meu_footer">
         <div class="container">
-            <div style="display: flex; justify-content: space-between;">
+            <div class="footer_menu">
                 <div>
-                    <img src="~/img/logoMarcaDfmTech.png" />
+                    <h5>Institucional</h5>
+                    <h6>Sobre nós</h6>
+                    <h6>Nossos valores</h6>
+                    <a asp-area="" asp-controller="Home" asp-action="Privacy"><h6>A importância do EPI</h6></a>
                 </div>
                 <div>
-                    EquipaMais EPI - 2022 / DFM Tech
+                    <h5>Atendimento</h5>
+                    <h6>(19) 3226-6600</h6>
+                    <h6>atendimento@equipamaisepi.com.br</h6>
                 </div>
                 <div>
-                    Sobre nós
+                    <h5>Formas de pagamento</h5>
+                    <img src="~/img/meios_pagamento.png"/>
+                </div>
+                <div>
+                    <h5>Redes Sociais</h5>
+                    <div class="icones_redes_sociais">
+                        <img src="~/img/whatsapp.png" />
+                        <img src="~/img/instagram.png" />
+                        <img src="~/img/linkedin.png" />
+                    </div>               
+                </div>
+                <div>
+                    <img id="logo_empresa" src="~/img/logoGrupo.jpg" />
                 </div>
             </div>     
         </div>

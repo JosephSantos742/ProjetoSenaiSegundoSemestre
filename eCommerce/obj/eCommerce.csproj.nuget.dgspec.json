@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\josep\\Documents\\Visual Studio 2022\\Projetos\\eCommerce\\eCommerce\\eCommerce\\eCommerce.csproj": {}
+    "C:\\Users\\aluno\\Documents\\JosephSantos\\ProjetoSegundoSemestre\\eCommerce\\eCommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\josep\\Documents\\Visual Studio 2022\\Projetos\\eCommerce\\eCommerce\\eCommerce\\eCommerce.csproj": {
+    "C:\\Users\\aluno\\Documents\\JosephSantos\\ProjetoSegundoSemestre\\eCommerce\\eCommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\josep\\Documents\\Visual Studio 2022\\Projetos\\eCommerce\\eCommerce\\eCommerce\\eCommerce.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Documents\\JosephSantos\\ProjetoSegundoSemestre\\eCommerce\\eCommerce.csproj",
         "projectName": "eCommerce",
-        "projectPath": "C:\\Users\\josep\\Documents\\Visual Studio 2022\\Projetos\\eCommerce\\eCommerce\\eCommerce\\eCommerce.csproj",
-        "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\josep\\Documents\\Visual Studio 2022\\Projetos\\eCommerce\\eCommerce\\eCommerce\\obj\\",
+        "projectPath": "C:\\Users\\aluno\\Documents\\JosephSantos\\ProjetoSegundoSemestre\\eCommerce\\eCommerce.csproj",
+        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aluno\\Documents\\JosephSantos\\ProjetoSegundoSemestre\\eCommerce\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -45,8 +49,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
