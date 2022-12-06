@@ -19,7 +19,7 @@
                 </button>*@
                 <img src="~/img/logomarcaTotalEpi.png" style="width:30%;"/>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <ul class="navbar-nav flex-grow-0">
+                    <ul class="navbar-nav flex-grow-0 opcaoNavbar">
                         @*<li class="nav-item">
                             <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
@@ -27,37 +27,39 @@
                             <a class="nav-link text-warning" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>*@
                         <li>
-                            <a class="nav-link text-warning" href="#produto_bota_landing" style="font-size: 20px;">Botas</a>
+                            <a class="nav-link text-warning" href="#produto_bota_landing">Botas</a>
                         </li>
                         <li>
-                            <a class="nav-link text-warning" href="#produto_luva_landing" style=" font-size: 20px;">Luvas</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-warning" href="#produto_capacete_landing" style=" font-size: 20px;">Capacetes</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-warning" href="#produto_fone_landing" style=" font-size: 20px;">Fones</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-warning" href="#produto_mascara_landing" style=" font-size: 20px;">Máscaras</a>
-                        </li>
-                        <li>
-                            <a class="nav-link text-warning" href="#produto_senai_landing" style=" font-size: 20px;">Exclusivos Senai</a>
+                            <a class="nav-link text-warning" href="#produto_luva_landing">Luvas</a>
+                        </li>                               
+                        <li>                                
+                            <a class="nav-link text-warning" href="#produto_capacete_landing">Capacetes</a>
+                        </li>                               
+                        <li>                                
+                            <a class="nav-link text-warning" href="#produto_fone_landing">Fones</a>
+                        </li>                               
+                        <li>                                
+                            <a class="nav-link text-warning" href="#produto_mascara_landing">Máscaras</a>
+                        </li>                               
+                        <li>                                
+                            <a class="nav-link text-warning" href="#produto_senai_landing">Exclusivos Senai</a>
                         </li>
                             <ul class="usuario_login">
                                 <li>
-                                    <a id="open-modal">Logar</a>
+                                    <a id="open-modal-login">Logar</a>
                                 </li>
                                 <li>
-                                    <a>Cadastrar</a>
+                                    <a id="open-modal-cadastro">Cadastrar</a>
                                 </li>
                             </ul>
-                        <img src="~/img/user.png" style="padding-right: .5rem; padding-left: .5rem; width: 8%;" />
+                        <img src="~/img/user.png" id="imagem_usuario"/>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <section></section>
+    <a href="#" class="btnTopo"></a>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

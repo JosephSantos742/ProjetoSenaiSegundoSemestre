@@ -1,6 +1,10 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@300&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@700&family=Montserrat:wght@300&family=Nunito:wght@200&family=Pacifico&family=Poppins:wght@300&family=Righteous&family=Roboto+Slab:wght@300&family=Roboto:wght@300&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Redimensionar o Banner */
 .banner img {
     width: 100%;
@@ -109,7 +113,7 @@
     .btnOpcoes:active {
         text-shadow: none;
         color: var(--c);
-        box-shadow: inset 0 0 9e9q #0005;
+        box-shadow: inset 0 0 #0005;
         transition: 0s;
     }
 
@@ -181,9 +185,13 @@
     background: #000;
 }
 
+.opcaoNavbar {
+    font-size: 10px;
+}
 /* Mexendo com a opção de logar ou cadastrar da Navbar*/
 .usuario_login {
     list-style-type: none;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color: white;
@@ -191,14 +199,50 @@
     padding-left: .5rem;
 }
 
+#imagem_usuario {
+    width: 7%;
+}
+/* Botão para volar ao topo da pagina */
+.btnTopo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: #000;
+    text-decoration: none;
+    z-index: 10;
+    border-radius: 50px;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+}
+
+    .btnTopo::after {
+        content: "↑";
+        font-size: 50px;
+        font-weight: bold;
+        color: #ffc107;
+        transition: margin-top 250ms;
+    }
+
+    .btnTopo:hover::after {
+        margin-top: -8px;
+    }
+
 /*Inicio do Modal*/
 
-#open-modal:hover {
+#open-modal-login:hover,
+#open-modal-cadastro:hover {
     color: #ffc107;
     cursor: pointer;
 }
 
-#fade {
+#fade-login,
+#fade-cadastro {
     position: fixed;
     top: 0;
     left: 0;
@@ -208,7 +252,8 @@
     z-index: 5;
 }
 
-#modal {
+#modal-login,
+#modal-cadastro {
     position: fixed;
     left: 50%;
     top: 50%;
@@ -221,8 +266,10 @@
     z-index: 10;
 }
 
-#fade,
-#modal {
+#fade-login,
+#fade-cadastro,
+#modal-login,
+#modal-cadastro {
     transition: 0.5s;
     opacity: 1;
     pointer-events: all;
@@ -237,18 +284,46 @@
     padding-bottom: 1rem;
 }
 
+.modal-body {
+    text-align: center;
+}
 .modal-body p {
     margin-bottom: 1rem;
 }
 
-#modal.hide,
-#fade.hide {
+.modal-body input {
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+#modal-login.hide,
+#modal-cadastro.hide,
+#fade-login.hide,
+#fade-cadastro.hide {
     opacity: 0;
     pointer-events: none;
 }
 
-#modal.hide {
+#modal-login.hide,
+#modal-cadastro.hide {
     top: 0;
+}
+
+.btnModal {
+    background-color: lawngreen;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 3%;
+    padding: 1% 4%;
+    border: none;
 }
 
 /*Fim do Modal*/
@@ -259,3 +334,17 @@
         font-size: 20px;
     }
 }
+
+@media(min-width: 990px) {
+    .opcaoNavbar {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #imagem_usuario {
+        width: 5%;
+        height: 5%;
+    }
+}
+
