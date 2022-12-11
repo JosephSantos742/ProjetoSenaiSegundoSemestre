@@ -176,6 +176,11 @@ html {
     margin: 0 2%;
 }
 
+#meio_pagamento {
+    width: 300px;
+    height: 200px;
+}
+
 #logo_empresa {
     width: 100%;
 }
@@ -347,4 +352,60 @@ input[type=number] {
         height: 5%;
     }
 }
+
+@media(max-width: 1200px) {
+    .areas_de_venda {
+        flex-direction: column;
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .areas_de_venda img {
+        margin: 2% 0;
+    }
+}
+
+@media(max-width: 1200px) {
+    .lista_produtos {
+        flex-direction: column;
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .footer_menu {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 1200px) {
+    .icones_redes_sociais {
+        margin: 3% 0% 3% 35%;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    #logo_empresa {
+        width: 20%;
+        margin: 3% 0% 3% 37%;
+    }
+}
+
+@media(max-width: 1200px) {
+    #meio_pagamento {
+        margin: 3% 0% 5% 25%;
+    }
+}
+
+@media(max-width: 1200px) {
+    .contato_empresa {
+        margin: 3% 0% 3% 0%;
+        text-align: center;
+    }
+}
+
 

@@ -114,3 +114,6 @@ C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.genruntimeconfig.cache
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csproj.CopyComplete
 C:\Users\aluno\Documents\JosephSantos\ProjetoSegundoSemestre\eCommerce\obj\Debug\netcoreapp3.1\eCommerce.csprojAssemblyReference.cache
+C:\Users\josep\Documents\Visual Studio 2022\Projetos\eCommerce\eCommerce\eCommerce\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\josep\Documents\Visual Studio 2022\Projetos\eCommerce\eCommerce\eCommerce\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\josep\Documents\Visual Studio 2022\Projetos\eCommerce\eCommerce\eCommerce\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
