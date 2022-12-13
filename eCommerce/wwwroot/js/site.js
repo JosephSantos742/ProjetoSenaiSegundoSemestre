@@ -88,3 +88,37 @@ const pesquisaCep = async () => {
 }
 
 document.getElementById('cep').addEventListener('focusout', pesquisaCep);
+
+// Máscaras e validações para os campos do formulários
+
+ // Somente aceitar letras no campo de nome
+let inputNome = document.getElementById("nome");
+inputNome.addEventListener("keydown", function (e) {
+    if (e.key >= "0" && e.key <= "9") {
+        e.preventDefault();
+    }
+});
+
+// Somente aceitar numeros no campo do CEP
+let inputCep = document.getElementById("cep");
+inputCep.addEventListener("keydown", function (e) {
+    if (e.key >= "a" && e.key <= "z") {
+        e.preventDefault();
+    }
+});
+
+ // Função com mascara o campo de CPF sair com os pontos
+function mascaraCpf(i) {
+
+    var v = i.value;
+
+    // Permite somente a entrada de números
+    if (isNaN(v[v.length - 1])) { 
+        i.value = v.substring(0, v.length - 1);
+        return;
+    }
+
+    i.setAttribute("maxlength", "14");
+    if (v.length == 3 || v.length == 7) i.value += ".";
+    if (v.length == 11) i.value += "-";
+}

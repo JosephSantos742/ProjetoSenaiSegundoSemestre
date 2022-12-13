@@ -7,7 +7,7 @@ namespace eCommerce.Models
     {
         // Atributos da classe cliente
         private string nome;
-        private int cpf;
+        private string cpf;
         private string email;
         private string senha;
         private int cep;
@@ -18,11 +18,11 @@ namespace eCommerce.Models
         private string cidade;
 
         // Criando a conexão com banco
-        const string conString = "Server=ESN509VMYSQL;Database=db_djmTech;User id=aluno;Password=Senai1234";
+        const string conString = "Server=ESN509VMYSQL;Database=db_djmtech;User id=aluno;Password=Senai1234";
 
         // Getters e Setters da classe cliente 
         public string Nome { get => nome; set => nome = value; }
-        public int Cpf { get => cpf; set => cpf = value; }
+        public string Cpf { get => cpf; set => cpf = value; }
         public string Email { get => email; set => email = value; }
         public string Senha { get => senha; set => senha = value; }
         public int Cep { get => cep; set => cep = value; }
@@ -77,8 +77,9 @@ namespace eCommerce.Models
                 con.Open();
                 if (!x)
                 {
-                    MySqlCommand query = new MySqlCommand("INSERT INTO cliente VALUES(@nome,@cpf,@email,@senha," +
-                        " @cep,@logradouro,@numero,@complemento,@bairro,@cidade)", con);
+                    MySqlCommand query = new MySqlCommand("INSERT INTO cliente(nome,bairro,cep,numero,cidade,complemento," +
+                        "email,senha,cpf,logradouro) VALUES(@nome,@bairro,@cep,@numero,@cidade,@complemento," +
+                        "@email,@senha,@cpf,@logradouro)", con);
                     query.Parameters.AddWithValue("@nome", nome);
                     query.Parameters.AddWithValue("@cpf", cpf);
                     query.Parameters.AddWithValue("@email", email);

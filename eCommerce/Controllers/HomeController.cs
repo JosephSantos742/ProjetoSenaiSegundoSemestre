@@ -31,7 +31,7 @@ namespace eCommerce.Controllers
 
         // Recebendo os valores da View e passando eles para o Model através do metodo de inserir
         [HttpPost]
-        public IActionResult Salvar(string nome, int cpf, string email, string senha, int cep, string logradouro,
+        public IActionResult Salvar(string nome, string cpf, string email, string senha, int cep, string logradouro,
             int numero, string complemento, string bairro, string cidade)
         {
             cliente.Nome = nome;
